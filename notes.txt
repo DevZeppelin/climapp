@@ -7,3 +7,5 @@
 6.Luego validamos el formulario, todo en Formulario.js
 7.Ahora vamois a App.js
 El State de busqueda, guardarBusqueda lo habia creado en el componente Formulario.js, pero ahora lo voy a cortar y pegar en el App.js . Para eso debo pasarselo al componente <Formulario/> como props: <Formulario busqueda={busqueda} guardarBusqueda={guardarBusqueda}/> y en el componente Formulario ({busqueda, guardarBusqueda}) 
+8.En este proyecto vimos como consumitr la APi weather y repasamos lo mismo de siempre- 
+9.Al final agregamos proptypes
