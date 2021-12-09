@@ -1,0 +1,9 @@
+1. npm create-react-app climapp
+2. Hacemos una cuenta en openweather asi nos da la API key para poder utilizar su api, es como un usuario para ellos
+3. Del Gist copiamos en el index.html el link a materialize y los scripts q colocaresmo antes del cierre del body
+4.Eliminamos los archivos que no vamos a usar y comenzamos a maquetar la estructura en el App.js
+5.Luego de crear el componente HEader y Formulario, en el Formulario.js vamos a crear el primer State;
+"Es un buen lugar para estudiar el funcionamiento de los state en un formulario, esta todo escrito en este formulario.js"
+6.Luego validamos el formulario, todo en Formulario.js
+7.Ahora vamois a App.js
+El State de busqueda, guardarBusqueda lo habia creado en el componente Formulario.js, pero ahora lo voy a cortar y pegar en el App.js . Para eso debo pasarselo al componente <Formulario/> como props: <Formulario busqueda={busqueda} guardarBusqueda={guardarBusqueda}/> y en el componente Formulario ({busqueda, guardarBusqueda}) 
